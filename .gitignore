@@ -1,0 +1,21 @@
+# Windows build outputs
+Debug/
+Release/
+x64/
+x86/
+arm64/
+*.exe
+*.dll
+*.ilk
+*.idb
+*.pdb
+*.obj
+*.log
+
+# macOS / VS Code build outputs
+build/
+*.o
+*.out
+
+# VS Code local settings (optional)
+.vscode/
