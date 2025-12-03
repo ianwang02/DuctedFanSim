@@ -1,0 +1,40 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build DuctedFanSim",
+      "type": "shell",
+      "command": "clang++",
+      "args": [
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "-g",
+        "-Iinclude",
+        "src/main.cpp",
+        "src/Core/Config.cpp",
+        "src/IO/CSVReader.cpp",
+        "src/IO/Exporter.cpp",
+        "src/Aero/AirfoilDatabase.cpp",
+        "src/Math/Interpolation.cpp",
+        "src/Solver/MomentumDiskModel.cpp",
+        "src/Solver/BEMTRotorModel.cpp",
+        "src/Flow/FlowFieldGenerator.cpp",
+        "-o",
+        "ducted_fan_sim"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    }
+  ]
+}
+
+

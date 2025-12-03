@@ -17,5 +17,17 @@ build/
 *.o
 *.out
 
-# VS Code local settings (optional)
-.vscode/
+# VS Code local settings (useful for mac)
+# .vscode/
+
+# macOS system files
+.DS_Store
+
+# VScode platform specific compiled binary executable
+ducted_fan_sim
+
+# macOS compiled LLDB symbol files
+ducted_fan_sim.dSYM/
+
+# Runtime Output Data files
+output/
