@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{c1fc2003-2220-4fd3-8024-3f44d3b35654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Solver">
+      <UniqueIdentifier>{afacea63-5f41-4da9-937c-dc532ab6583b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Core">
+      <UniqueIdentifier>{e291b8a7-0935-4b7b-a262-0583ee7d4213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Aero">
+      <UniqueIdentifier>{a9fb1734-c4f0-4df3-87f4-4089fbb8ab15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Fan">
+      <UniqueIdentifier>{96986eb4-1a02-4a8e-9673-c83006b38d21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\IO">
+      <UniqueIdentifier>{dbdb1758-44b5-4542-bbff-094d4a3c4f1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Math">
+      <UniqueIdentifier>{901f4ffa-cc4e-4339-add8-3dde2918867b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{74cbea00-8daa-4de7-89eb-58e23d18bc61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core">
+      <UniqueIdentifier>{7ce6da86-3578-4531-a135-c187276ff00b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Aero">
+      <UniqueIdentifier>{9e605a14-4f7e-40f9-b94a-5da6c44b20e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\IO">
+      <UniqueIdentifier>{26ebcdd6-65e4-4a88-88a7-fcd376dc6054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Solver">
+      <UniqueIdentifier>{3c12e021-3756-47d8-ac2b-9ff5fc491a0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Math">
+      <UniqueIdentifier>{24fb1b77-a6a3-4b23-bc4e-a16757558786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Flow">
+      <UniqueIdentifier>{d9ac0f96-115b-480a-9cdf-c706b505668c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Flow">
+      <UniqueIdentifier>{82200495-65d4-477c-8f73-f95ae1958779}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Aero\AirfoilDatabase.h">
+      <Filter>Include\Aero</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Aero\AirfoilPolar.h">
+      <Filter>Include\Aero</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Config.h">
+      <Filter>Include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\GeometryTypes.h">
+      <Filter>Include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\OperatingCondition.h">
+      <Filter>Include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Fan\Blade.h">
+      <Filter>Include\Fan</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Fan\BladeSection.h">
+      <Filter>Include\Fan</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Fan\Duct.h">
+      <Filter>Include\Fan</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Fan\DuctedFan.h">
+      <Filter>Include\Fan</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IO\CSVReader.h">
+      <Filter>Include\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Math\Constants.h">
+      <Filter>Include\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Math\Interpolation.h">
+      <Filter>Include\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Math\Vector3.h">
+      <Filter>Include\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Solver\BEMTRotorModel.h">
+      <Filter>Include\Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Solver\DuctedFanSolver.h">
+      <Filter>Include\Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Solver\DuctModel.h">
+      <Filter>Include\Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Solver\MomentumDiskModel.h">
+      <Filter>Include\Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Flow\FlowField.h">
+      <Filter>Include\Flow</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Flow\FlowFieldGenerator.h">
+      <Filter>Include\Flow</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IO\Exporter.h">
+      <Filter>Include\IO</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Core\Config.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Aero\AirfoilDatabase.cpp">
+      <Filter>src\Aero</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IO\CSVReader.cpp">
+      <Filter>src\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Math\Interpolation.cpp">
+      <Filter>src\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Solver\MomentumDiskModel.cpp">
+      <Filter>src\Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Solver\BEMTRotorModel.cpp">
+      <Filter>src\Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Flow\FlowFieldGenerator.cpp">
+      <Filter>src\Flow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IO\Exporter.cpp">
+      <Filter>src\IO</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
